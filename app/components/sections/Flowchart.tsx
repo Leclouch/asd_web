@@ -76,32 +76,6 @@ export default function FlowchartSection() {
                     justifyContent: "center",
                     position: "relative",
                 }}>
-                    {/* Placeholder — replace img src with actual flowchart images in /public/flowcharts/ */}
-                    <div style={{
-                        border: "2px dashed var(--border-bright)",
-                        padding: "40px 60px",
-                        textAlign: "center",
-                        color: "var(--text-dim)",
-                    }}>
-                        {/* <div style={{ fontSize: 32, marginBottom: 12, color: "var(--border-bright)" }}>◈</div>
-                        <div style={{ fontSize: 13, color: "var(--text-muted)", marginBottom: 6 }}>
-                            {current.label}
-                        </div>
-                        <div style={{ fontSize: 11, color: "var(--text-dim)" }}>
-                            Letakkan file gambar di:
-                        </div>
-                        <div style={{ fontSize: 11, color: "var(--green-dim)", marginTop: 4 }}>
-                            /public{current.file}
-                        </div>
-                        <div style={{ fontSize: 10, color: "var(--text-dim)", marginTop: 16, maxWidth: 320 }}>
-                            Ganti blok ini dengan tag &lt;Image&gt; atau &lt;img&gt; setelah file flowchart tersedia.
-                            Format yang didukung: PNG, JPG, SVG, WebP.
-                        </div> */}
-                    </div>
-
-
-
-
                     <img
                         src={current.file}
                         alt={current.label}

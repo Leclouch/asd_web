@@ -176,3 +176,28 @@ tr:hover td {
   color: #ffaa00;
   font-weight: 600;
 }
+
+/* Responsive grid helpers */
+.grid-3col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .grid-3col {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .grid-2col {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

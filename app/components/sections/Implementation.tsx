@@ -131,8 +131,8 @@ export default function ImplementasiSection() {
                         "Admin menyetujui permohonan",
                         "Permohonan masuk ke dalam riwayat",
                     ].map((step, i) => (
-                        <div key={i} style={{ display: "flex", gap: 10, fontSize: 12, alignItems: "baseline" }}>
-                            <span style={{ color: "var(--green-dim)", minWidth: 24, fontSize: 11 }}>
+                        <div key={i} style={{ display: "flex", gap: 10, fontSize: 13, alignItems: "baseline" }}>
+                            <span style={{ color: "var(--green-dim)", minWidth: 24, fontSize: 13 }}>
                                 {String(i + 1).padStart(2, "0")}.
                             </span>
                             <span style={{ color: "var(--text-primary)" }}>{step}</span>
@@ -158,7 +158,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
             }}>
                 {title}
             </div>
-            <div style={{ fontSize: 13, color: "var(--text-primary)", lineHeight: 1.9, paddingLeft: 4 }}>
+            <div style={{ fontSize: 15, color: "var(--text-mid)", lineHeight: 1.8, paddingLeft: 4 }}>
                 {children}
             </div>
         </div>
@@ -167,12 +167,12 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function SubSection({ label, children }: { label: string; children: React.ReactNode }) {
     return (
-        <div style={{ display: "flex", gap: 12 }}>
+        <div style={{ display: "flex", gap: 10 }}>
             <span style={{
-                color: "#ffaa00", fontSize: 11, minWidth: 120,
+                color: "#ffaa00", fontSize: 13, minWidth: 120,
                 paddingTop: 1,
             }}>{label}</span>
-            <span style={{ color: "var(--text-primary)", fontSize: 12, lineHeight: 1.8 }}>{children}</span>
+            <span style={{ color: "var(--text-primary)", fontSize: 13, lineHeight: 1.8 }}>{children}</span>
         </div>
     );
 }
@@ -181,7 +181,7 @@ function FuncTable({ rows }: { rows: [string, string][] }) {
     return (
         <div style={{ display: "grid", gap: 6 }}>
             {rows.map(([fn, desc]) => (
-                <div key={fn} style={{ display: "flex", gap: 16, fontSize: 12 }}>
+                <div key={fn} style={{ display: "flex", gap: 16, fontSize: 13 }}>
                     <span style={{ color: "#00ffff", minWidth: 160 }}>{fn}</span>
                     <span style={{ color: "var(--text-primary)" }}>{desc}</span>
                 </div>

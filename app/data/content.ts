@@ -1,4 +1,4 @@
-export const teamMembers = [
+export const members = [
     { name: "Muhammad Wafdan Taqiyya", nim: "25/554588/TK/62628" },
     { name: "Muhammad Affriza Ayman Nashmi", nim: "25/559828/TK/63201" },
     { name: "Abdillah Kamal Azizy", nim: "25/561425/TK/63428" },
