@@ -118,7 +118,7 @@ export default function Sidebar({ active, onSelect, isOpen, onClose }: Props) {
                 <div style={{ padding: "12px 16px", borderTop: "1px solid var(--border)" }}>
                     <div style={{ fontSize: 9, color: "var(--text-muted)", lineHeight: 1.6 }}>
                         Algoritma &amp; Struktur Data<br />
-                        <span style={{ color: "#333" }}>Universitas Gadjah Mada</span>
+                        <span style={{ color: "var(--green)" }}>Web made by Wafdan & Claude</span>
                     </div>
                 </div>
             </div>

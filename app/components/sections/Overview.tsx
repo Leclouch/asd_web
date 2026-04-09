@@ -117,8 +117,9 @@ export default function Overview() {
                 borderRadius: 4,
                 padding: "20px 24px",
                 marginTop: 30,
+                marginBottom: 30,
             }}>
-                <div style={{ color: "var(--green)", fontSize: 15, marginBottom: 14, textAlign: "center", fontWeight: 600 }}>
+                <div style={{ color: "var(--green)", fontSize: 15, textAlign: "center", fontWeight: 600 }}>
                     Ketuk navigasi di sebelah kiri untuk menjelajahi setiap bagian dari sistem.
                 </div>
             </div>
