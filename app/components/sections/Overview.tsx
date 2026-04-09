@@ -104,10 +104,22 @@ export default function Overview() {
                     {members.map((m, i) => (
                         <div key={i} style={{ display: "flex", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
                             <span style={{ color: "var(--text-muted)", fontSize: 14, minWidth: 16 }}>{i + 1}.</span>
-                            <span style={{ color: "var(--green)", fontSize: 14 }}>{m.name}</span>
-                            <span style={{ color: "var(--text-muted)", fontSize: 14 }}>{m.nim}</span>
+                            <span style={{ color: "var(--green)", fontSize: 13 }}>{m.name}</span>
+                            <span style={{ color: "var(--text-muted)", fontSize: 13 }}>{m.nim}</span>
                         </div>
                     ))}
+                </div>
+            </div>
+
+            <div style={{
+                background: "var(--bg-secondary)",
+                border: "1px solid var(--border)",
+                borderRadius: 4,
+                padding: "20px 24px",
+                marginTop: 30,
+            }}>
+                <div style={{ color: "var(--green)", fontSize: 15, marginBottom: 14, textAlign: "center", fontWeight: 600 }}>
+                    Ketuk navigasi di sebelah kiri untuk menjelajahi setiap bagian dari sistem.
                 </div>
             </div>
         </div>

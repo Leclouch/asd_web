@@ -44,7 +44,7 @@ export default function Sidebar({ active, onSelect, isOpen, onClose }: Props) {
                             Projek ASD
                         </div>
                         <div style={{ color: "var(--text-muted)", fontSize: 13, marginTop: 4 }}>
-                            Kelompok 1 // TIF-B // 2026
+                            Kelompok 1 <br /> TIF-B // 2026
                         </div>
                     </div>
                     <button
