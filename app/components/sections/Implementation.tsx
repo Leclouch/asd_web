@@ -15,7 +15,7 @@ export default function ImplementasiSection() {
             <div style={{ color: "var(--text-muted)", fontSize: 16, marginBottom: 28 }}>BAB IV — Implementasi Program</div>
 
             {/* 4.1 */}
-            <Section title="4.1 Gambaran Umum">
+            <Section title="Gambaran Umum">
                 <p>
                     Program mengimplementasikan sistem peminjaman ruang kelas berbasis struktur data{" "}
                     <Kw>queue</Kw> dan <Kw>stack</Kw>. Queue menyimpan antrean permohonan dari mahasiswa secara
@@ -30,7 +30,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.2 */}
-            <Section title="4.2 Spesifikasi Perangkat">
+            <Section title="Spesifikasi Perangkat">
                 <div style={{ display: "grid", gap: 6 }}>
                     {[
                         ["OS", "Windows / Linux / MacOS"],
@@ -46,7 +46,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.3 */}
-            <Section title="4.3 Implementasi Program">
+            <Section title="Implementasi Program">
                 <p>
                     Rancangan algoritma diubah ke dalam bahasa C++. Program merepresentasikan proses
                     peminjaman ruang kelas dengan memanfaatkan <Kw>queue</Kw> dan <Kw>stack</Kw> yang
@@ -69,7 +69,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.4 */}
-            <Section title="4.4 Struktur Data">
+            <Section title="Struktur Data">
                 <div style={{ display: "grid", gap: 12 }}>
                     <SubSection label="struct Data">
                         Berisi informasi peminjaman: <Kw>nama</Kw>, <Kw>NIU</Kw>, <Kw>tanggal</Kw>, <Kw>jam</Kw>,{" "}
@@ -95,7 +95,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.4.5 Queue functions */}
-            <Section title="4.4.5 Fungsi Queue">
+            <Section title="Fungsi Queue">
                 <FuncTable rows={[
                     ["enqueue()", "Menambahkan permohonan ke belakang antrean."],
                     ["dequeue()", "Mengeluarkan permohonan terdepan untuk diproses admin."],
@@ -105,7 +105,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.4.6 Stack functions */}
-            <Section title="4.4.6 Fungsi Stack">
+            <Section title="Fungsi Stack">
                 <FuncTable rows={[
                     ["push()", "Menambahkan hasil keputusan admin ke riwayat."],
                     ["pop()", "Menghapus dan menampilkan riwayat terakhir."],
@@ -115,7 +115,7 @@ export default function ImplementasiSection() {
             </Section>
 
             {/* 4.5 Cara kerja */}
-            <Section title="4.5 Cara Kerja Program">
+            <Section title="Cara Kerja Program">
                 <p style={{ marginBottom: 12 }}>
                     Mahasiswa memasukkan data permohonan ke antrean. Admin melihat antrean dan memproses
                     permohonan tersebut. Setelah diproses, data dipindahkan ke stack dengan status diterima
