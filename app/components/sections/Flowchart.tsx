@@ -4,8 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 
 const flowcharts = [
-    { id: "main", label: "Main Flow", file: "/flowcharts/main.png", desc: "Alur utama program — pemilihan role & navigasi menu" },
-    { id: "enqueue", label: "Permintaan Peminjaman", file: "/flowcharts/tambahPermintaanUser.drawio.png", desc: "Menambahkan permintaan peminjaman sebagai user" },
+    { id: "main", label: "Main Flow", file: "/flowcharts/MainFlow_ASDProjek(1)_fixed.jpg", desc: "Alur utama program — pemilihan role & navigasi menu" },
+    { id: "enqueue", label: "Permintaan Peminjaman", file: "/flowcharts/tambahPermintaanUser(1).jpg", desc: "Menambahkan permintaan peminjaman sebagai user" },
     { id: "dequeue", label: "Proses Peminjaman", file: "/flowcharts/flowchart_prosespermintaan.jpg", desc: "Memproses permintaan peminjaman selanjutnya" },
     { id: "push", label: "Simpan Riwayat", file: "/flowcharts/simpandata.jpg", desc: "Menyimpan data ke riwayat" },
     { id: "pop", label: "Show History", file: "/flowcharts/Menampilkandataterakhiryangtelahdiproses.drawio.jpg", desc: "menampilkan data terakhir yang telah diproses" },
